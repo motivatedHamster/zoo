@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Tiger.create appetite: 100
+Tiger.create appetite: 200
+Tiger.create appetite: 300
