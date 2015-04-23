@@ -9,3 +9,24 @@
 Tiger.create appetite: 100
 Tiger.create appetite: 200
 Tiger.create appetite: 300
+
+Zebra.create weight: 200
+Zebra.create weight: 300
+Zebra.create weight: 175
+Zebra.create weight: 90
+Zebra.create weight: 525
+Zebra.create weight: 750
+Zebra.create weight: 980
+
+Turtle.create is_inside: true
+Turtle.create is_inside: true
+Turtle.create is_inside: true
+Turtle.create is_inside: false
+Turtle.create is_inside: false
+Turtle.create is_inside: false
+
+Giraffe.create height: 20
+Giraffe.create height: 12
+Giraffe.create height: 15
+Giraffe.create height: 10
+Giraffe.create height: 7

@@ -4,7 +4,7 @@ class Tiger < ActiveRecord::Base
   end
   
   def eat(zebra)
-    self.appetite -= zebra.weight
+    appetite -= zebra.weight
     zebra.destroy
   end
   
