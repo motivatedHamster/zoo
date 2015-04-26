@@ -18,12 +18,12 @@ Zebra.create weight: 525
 Zebra.create weight: 750
 Zebra.create weight: 980
 
-Turtle.create is_inside: true
-Turtle.create is_inside: true
-Turtle.create is_inside: true
-Turtle.create is_inside: false
-Turtle.create is_inside: false
-Turtle.create is_inside: false
+Turtle.create is_inside: 1
+Turtle.create is_inside: 1
+Turtle.create is_inside: 1
+Turtle.create is_inside: 0
+Turtle.create is_inside: 0
+Turtle.create is_inside: 0
 
 Giraffe.create height: 20
 Giraffe.create height: 12

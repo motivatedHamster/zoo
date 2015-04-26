@@ -1,9 +1,11 @@
 class Turtle < ActiveRecord::Base
+  validates :is_inside, presence: true
+
   def hide()
-    is_inside = true
+    self.is_inside = 1
   end
   
   def emerge()
-    is_inside = false
+    self.is_inside = 0
   end
-end
+end  # class Turtle < ActiveRecord::Base

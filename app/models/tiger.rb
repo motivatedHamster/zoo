@@ -1,11 +1,13 @@
 class Tiger < ActiveRecord::Base
+  validates :appetite, presence: true, numericality { only_integer: true }
+
   def hungry
     appetite > 0
   end
   
   def eat(zebra)
-    appetite -= zebra.weight
+    self.appetite -= zebra.weight
     zebra.destroy
   end
   
-end
+end  # class Tiger < ActiveRecord::Base
