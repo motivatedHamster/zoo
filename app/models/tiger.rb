@@ -1,5 +1,5 @@
 class Tiger < ActiveRecord::Base
-  validates :appetite, presence: true, numericality { only_integer: true }
+  validates :appetite, presence: true, numericality: { only_integer: true }
 
   def hungry
     appetite > 0
