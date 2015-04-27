@@ -24,4 +24,19 @@ RSpec.describe Giraffe, type: :model do
     giraffe = Giraffe.new(height: 0)
     expect(giraffe).to_not be_valid
   end
+  
+  it "can return age guess" do
+    giraffe = Giraffe.new height: 10
+    expect(giraffe.respond_to? "guess_age").to eq true
+  end
+
+  it "is a newborn at height=5" do
+    giraffe = Giraffe.new height: 5
+    expect(giraffe.guess_age).to eq 0
+  end
+
+  it "is 12 years old at height 20" do
+    giraffe = Giraffe.new height: 20
+    expect(giraffe.guess_age).to eq 12
+  end
 end
