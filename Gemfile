@@ -45,5 +45,6 @@ group :development, :test do
   gem 'rspec-rails'
   
   gem 'guard-rake'
+  gem 'guard-rspec'
 end
 

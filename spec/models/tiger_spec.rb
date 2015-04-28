@@ -50,5 +50,5 @@ RSpec.describe Tiger, type: :model do
     tiger.eat(zebra)
     expect(tiger.appetite).to eq -1
   end
-  
+   
 end
